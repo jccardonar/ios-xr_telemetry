@@ -1,0 +1,16 @@
+{
+	"Name": "XR6_IPSLA",
+	"Metadata": {
+		"Version": 1,
+		"Description": "Initial test of IPSLA UDP echo telemetry policy.  Created by qms 5/6/2016",
+		"Identifier": "XR6_IPSLA_1"
+	},
+	"CollectionGroups": {
+		"FirstGroup": {
+			"Period": 30,
+			"Paths": [
+			"RootOper.IPSLA.OperationData.Operation({'OperationID': 1}).Statistics.Latest.Target
+			]
+		}
+	}
+}

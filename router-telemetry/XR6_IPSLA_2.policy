@@ -1,0 +1,17 @@
+{
+	"Name": "XR6_R3Export",
+	"Metadata": {
+		"Version": 1,
+		"Description": "xrv9k-3 ipsla probe export.  created by qms -- 5/13/2016"
+		"Identifier": "XR6_IPSLA_1"
+	},
+	"CollectionGroups": {
+		"SLA_GROUP": {
+			"Period": 30,
+			"Paths": [
+			"RootOper.IPSLA.OperationData.Operation({'OperationID': 1}).Statistics.Latest.Target"
+			"RootOper.IPSLA.OperationData.Operation({'OperationID': 2}).Statistics.Latest.Target"
+			]
+		}
+	}
+}
