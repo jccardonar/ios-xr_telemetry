@@ -1,15 +1,15 @@
 {
-	"Name": "snyderq-xrv9k01-ipsla",
+	"Name": "snyderq_xrv9k01_ipsla",
 	"Metadata": {
 		"Version": 1,
 		"Description": "snyderq-xrv9k01 udp echo ipsla export.  used to generate data to ingest in a containerized elk stack for demonstration purposes.",
-		"Identifier": "snyderq-xrv9k01-ipsla"
+		"Identifier": "snyderq_xrv9k01_ipsla"
 	},
 	"CollectionGroups": {
 		"SLAGroup": {
 			"Period": 30,
 			"Paths": [
-			"RootOper.IPSLA.OperationData.Operation({'OperationID': 1}).Statistics.Latest.Target"
+			"RootOper.IPSLA.OperationData.Operation({'OperationID': 1}).Statistics.Latest.Target",
 			"RootOper.IPSLA.OperationData.Operation({'OperationID': 2}).Statistics.Latest.Target"
 			]
 		}

@@ -1,9 +1,9 @@
 {
-	"Name": "snyderq-xrv9k02-ipsla",
+	"Name": "snyderq_xrv9k02_ipsla",
 	"Metadata": {
 		"Version": 1,
 		"Description": "snyderq-xrv9k02 udp echo ipsla export.  used to generate data to ingest in a containerized elk stack for demonstration purposes.",
-		"Identifier": "snyderq-xrv9k02-ipsla"
+		"Identifier": "snyderq_xrv9k02_ipsla"
 	},
 	"CollectionGroups": {
 		"SLAGroup": {
