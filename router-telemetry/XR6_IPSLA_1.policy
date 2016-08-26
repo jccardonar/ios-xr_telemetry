@@ -9,7 +9,7 @@
 		"FirstGroup": {
 			"Period": 30,
 			"Paths": [
-			"RootOper.IPSLA.OperationData.Operation({'OperationID': 1}).Statistics.Latest.Target
+			"RootOper.IPSLA.OperationData.Operation({'OperationID': 1}).Statistics.Latest.Target"
 			]
 		}
 	}
